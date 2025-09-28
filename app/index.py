@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title('Aplicativo Streamlit com ajuda do canal Café com Bug')
+    st.title('Aplicativo Streamlit - Café com Bug v.001')
 
     user_input = st.text_input("Digite algo:")
     
