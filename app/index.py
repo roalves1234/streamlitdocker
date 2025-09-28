@@ -1,9 +1,9 @@
 import streamlit as st
 
 def main():
-    st.title('Aplicativo Simples com Streamlit')
+    st.title('Aplicativo Simples com ajuda do canal Café com Bug')
 
-    user_input = st.text_input("Digite aqui:")
+    user_input = st.text_input("Digite algo:")
     
     if user_input:
         st.write(f'Você digitou: {user_input}')
